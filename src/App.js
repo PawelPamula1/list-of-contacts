@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="heading">Contacts</h1>
-      <input type="text" className="searchbar" placeholder="Search for your guy" onChange={(e) => setSearchTerm(e.target.value)} />
+      <input type="text" className="searchbar" placeholder="Search for your guy..." onChange={(e) => setSearchTerm(e.target.value)} />
       <div className="list">
         {list
           ?.filter((val) => {
